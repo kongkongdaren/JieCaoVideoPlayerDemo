@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.wen.asyl.jiecaovideoplayerdemo.MainActivity">
+    <Button
+        android:textAllCaps="false"
+        android:id="@+id/btn_small_listView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="在ListView中播放视频"/>
+    <Button
+        android:textAllCaps="false"
+        android:id="@+id/btn_small_sort_listView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="在分类型的ListView中播放视频"/>
+    <Button
+        android:textAllCaps="false"
+        android:id="@+id/btn_small_recyclerview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="在RecyclerView播放视频"/>
+    <Button
+        android:textAllCaps="false"
+        android:id="@+id/btn_small_sort_recyclerview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="在RecyclerView多布局播放视频"/>
+
+
+
+
+
+
+</LinearLayout>
